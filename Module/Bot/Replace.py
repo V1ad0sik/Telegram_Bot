@@ -1,10 +1,11 @@
 import wget
 
-import Module.Tool.Requests as Requests
-import Module.Tool.Time as Time
-import Module.Tool.Files as Files
-import Module.Tool.DocxParser as Docx
-import Module.Bot.FileNameOnSite as FileNameOnSite
+from Module.Bot import FileNameOnSite
+from Module.Tool import (
+    Requests,
+    Time,
+    DocxParser as Docx
+)
 
 
 def getSiteState(Url: str):

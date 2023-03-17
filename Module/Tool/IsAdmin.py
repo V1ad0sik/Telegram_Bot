@@ -1,4 +1,4 @@
-import Module.Bot.Setting as Setting
+from Module.Bot import Setting
 
 
 def isAdmin(UserID: int):

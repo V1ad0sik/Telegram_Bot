@@ -1,4 +1,3 @@
-
 History            = "History.txt"                    # ИСТОРИЯ СООБЩЕНИЙ
 
 SpecialPairs       = "DataBase/SpecialPairs.db"       # ЗАМЕНЫ

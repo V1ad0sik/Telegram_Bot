@@ -1,7 +1,5 @@
 import datetime
-
-import Module.Tool.Time as Time
-
+from Module.Tool import Time
 
 Default = {
     1: {"time": "8.00 - 9.30"},

@@ -1,8 +1,6 @@
 import os
 
-import Module.Tool.SQLite as SQLite
-import Module.Tool.Time as Time
-
+from Module.Tool import SQLite, Time
 from Module.Tool.IsAdmin import *
 from Module.Tool.Struct import *
 from Module.Tool.BotSDK import *

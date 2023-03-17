@@ -1,5 +1,7 @@
 import datetime
-import locale, pymorphy2, calendar
+import locale
+import calendar
+import pymorphy2
 
 # ЗАДАЕМ РУССКУЮ ЛОКАЛИЗАЦИЮ
 locale.setlocale(locale.LC_ALL, 'ru_RU.utf8')

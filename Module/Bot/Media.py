@@ -1,4 +1,4 @@
-import Module.Tool.Files as FilesSDK
+from Module.Tool import Files as FilesSDK
 
 
 def getMedia(Folder: str):
