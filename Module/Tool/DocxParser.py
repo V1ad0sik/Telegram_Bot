@@ -1,6 +1,5 @@
 import docx
-
-import Module.Tool.Filter as Filter
+from Module.Tool import Filter
 
 
 def openDocument(Path: str):

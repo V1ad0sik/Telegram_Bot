@@ -1,11 +1,5 @@
-import Module.Bot.FlexTime as FlexTime
-import Module.Bot.Setting as Setting
-import Module.Bot.Replace as Replace
-
-import Module.Tool.Time as Time
-import Module.Tool.SQLite as SQLite
-import Module.Tool.FilePath as FilePath
-
+from Module.Bot import FlexTime, Setting, Replace
+from Module.Tool import Time, SQLite, FilePath
 from Module.Tool.Struct import *
 from Module.Tool.BotSDK import *
 

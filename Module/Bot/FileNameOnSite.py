@@ -1,6 +1,5 @@
 import requests, bs4
-
-import Module.Tool.Requests as Requests
+from Module.Tool import Requests
 
 cookies = {
 }

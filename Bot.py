@@ -1,19 +1,24 @@
-import telebot, traceback, time
+import traceback
+import time
 
-import Module.Bot.FlexTime as FlexTime
-import Module.Bot.Teacher as Teacher
-import Module.Bot.Lesson as Lesson
-import Module.Bot.Media as MediaContent
-import Module.Bot.Group as Group
-import Module.Bot.Practice as Practice
+import telebot
 
-import Module.Tool.SQLite as SQLite
-import Module.Tool.History as History
-import Module.Tool.FilePath as FilePath
-import Module.Tool.Files as Files
-import Module.Tool.Users as Users
-import Module.Tool.Time as Time
-
+from Module.Bot import (
+    FlexTime,
+    Teacher,
+    Lesson,
+    Media,
+    Group,
+    Practice
+)
+from Module.Tool import (
+    SQLite,
+    History,
+    FilePath,
+    Files,
+    Users,
+    Time
+)
 from Module.Tool.Struct import *
 from Module.Tool.IsAdmin import *
 from Module.Tool.BotSDK import *

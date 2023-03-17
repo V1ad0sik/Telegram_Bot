@@ -1,4 +1,5 @@
-import requests, urllib3
+import requests
+import urllib3
 
 # ОТКЛЮЧАЕМ ПРЕДУПРЕЖДЕНИЯ В КОНСОЛИ
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)

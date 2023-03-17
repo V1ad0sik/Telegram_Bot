@@ -1,5 +1,4 @@
 import telebot
-
 from Module.Tool.Struct import *
 
 
